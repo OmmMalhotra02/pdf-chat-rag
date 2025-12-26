@@ -1,4 +1,5 @@
-#### RESULT
+### RESULT
+PDF uploaded - [anchoring.pdf](https://github.com/user-attachments/files/24346547/anchoring.pdf)
 ## I/P - 
 <img width="1611" height="387" alt="Screenshot 2025-12-26 153616" src="https://github.com/user-attachments/assets/fb0356b1-99da-46b2-8776-662dc926a15d" />
 
