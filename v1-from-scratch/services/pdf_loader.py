@@ -1,4 +1,4 @@
-import fitz
+import fitz # type: ignore
 
 def extract_pdf_text(path):
     text: list[dict[str, int | str]] = []
