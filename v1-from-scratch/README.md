@@ -16,66 +16,66 @@
 
 ### 1. But now imagine:
 
-        - summarization prompt
+- summarization prompt
 
-        - explain-like-I’m-5 prompt
+- explain-like-I’m-5 prompt
 
-        - page-specific prompt
+- page-specific prompt
 
-        - citation-heavy prompt
+- citation-heavy prompt
 
-        - safety-constrained prompt
+- safety-constrained prompt
 
 ## Suddenly you have:
 
-    - giant f-strings
+- giant f-strings
 
-    - copy-paste prompts
+- copy-paste prompts
 
-    - tiny inconsistencies causing weird LLM behavior
+- tiny inconsistencies causing weird LLM behavior
 
 ## LangChain helps here with:
 
-    - prompt templates
+- prompt templates
 
-    - variable validation
+- variable validation
 
-    - reuse without duplication
+- reuse without duplication
 
 ## Right now: relevant_chunks = vector_store.search(query_vector, k=5)
 ### 2. But imagine V2+:
 
-        different k based on question type
+- different k based on question type
 
-        page-range filtering
+- page-range filtering
 
-        keyword + semantic hybrid search
+- keyword + semantic hybrid search
 
-        re-ranking results
+- re-ranking results
 
-        fallback searches if nothing found
+- fallback searches if nothing found
 
 Your chat endpoint starts becoming a logic soup 🍲.
 
 ## LangChain’s retrievers give you:
 
-        composable retrieval logic
+- composable retrieval logic
 
-        standardized interfaces
+- standardized interfaces
 
-        easier swapping of FAISS ↔ Milvus ↔ Pinecone
+- easier swapping of FAISS ↔ Milvus ↔ Pinecone
 
 ### 3. Now imagine:
 
-        retrieve
+- retrieve
 
-        summarize context
+- summarize context
 
-        answer
+- answer
 
-        verify answer
+- verify answer
 
-        rephrase for clarity
+- rephrase for clarity
 
 ## That becomes:
 
@@ -91,34 +91,34 @@ Your chat endpoint starts becoming a logic soup 🍲.
 
 You currently have:
 
-    stateless chat
+- stateless chat
 
-    no conversation history
+- no conversation history
 
-    no follow-ups
+- no follow-ups
 
 Add:
 
-    “Explain that again”
+“Explain that again”
 
-    “What about page 12?”
+“What about page 12?”
 
-    “Compare both definitions”
+“Compare both definitions”
 
 Now you must:
 
-    track history
+- track history
 
-    trim tokens
+- trim tokens
 
-    inject memory smartly
+- inject memory smartly
 
 **LangChain’s memory abstractions help here.**
 
 #### NEED - 
-    Multi-step reasoning	✅ Yes
-    Conversational memory	✅ Yes
-    Production observability	✅ Yes
-    Rapid prototyping new ideas	✅ Yes
+    Multi-step reasoning	
+    Conversational memory	
+    Production observability	
+    Rapid prototyping new ideas	
 
 
