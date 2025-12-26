@@ -1,3 +1,10 @@
+#### RESULT
+## I/P - 
+<img width="1611" height="387" alt="Screenshot 2025-12-26 153616" src="https://github.com/user-attachments/assets/fb0356b1-99da-46b2-8776-662dc926a15d" />
+
+## RAG O/P
+<img width="1593" height="784" alt="Screenshot 2025-12-26 153631" src="https://github.com/user-attachments/assets/857b047e-5dde-400c-bb06-94025990efd8" />
+
 ### Everything you built in V1 is:
 
 - Clean
